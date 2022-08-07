@@ -1,11 +1,11 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:pie_menu/src/action.dart';
 import 'package:pie_menu/src/canvas.dart';
 import 'package:pie_menu/src/menu.dart';
 import 'package:pie_menu/src/theme.dart';
+import 'fa_icon.dart';
 
 /// Displays [PieAction]s of the [PieMenu] on the [PieCanvas].
 class PieButton extends StatefulWidget {
