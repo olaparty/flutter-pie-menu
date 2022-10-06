@@ -16,6 +16,7 @@ class PieAction {
     this.customHoveredWidget,
     this.buttonTheme,
     this.hoveredButtonTheme,
+    this.child
   });
 
   /// * [PieButton] refers to the button this [PieAction] belongs to.
@@ -55,4 +56,10 @@ class PieAction {
   ///
   /// This is assigned after all [PieAction]s have been processed.
   double angle = 0;
+
+  /// Widget to display inside [PieButton], usually an icon.
+  ///
+  /// If this is an icon, its theme can be customized easily
+  /// using [buttonTheme] and [buttonThemeHovered].
+  final Widget? child;
 }
